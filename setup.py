@@ -8,6 +8,15 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
+        'numpy',
+        'einops',
+        'omegaconf',
+        'matplotlib',
+        'accelerate',
+        'torch',
+        'torchdiffeq',
+        'diffusers',
+        'huggingface_hub',
         'xformers',
-    ],
+    ]
 )
